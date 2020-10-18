@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+
+class RandomWords(models.Model):
+    phrase = models.CharField(max_length=80)
